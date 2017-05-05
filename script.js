@@ -9,7 +9,8 @@ var black = "#000";
 var white = "#fff";
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight/1.5);
+  canvas.parent("myContainer");
   background('#000');
   strokeWeight(0.01);
   frameRate(24);
@@ -25,12 +26,11 @@ function draw() {
     var colorList = [magenta, pastelOrange, lightRed, black, black, black, white]; //color list
     var c = round(random(colorList.length-1));// select random color
     
-    
     stroke(colorList[c]); //set fill color
     line( start, w, end, h);//draw line
     smooth(); //just smooth
     }
 }
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight/1.5);
 }
