@@ -9,7 +9,7 @@ var black = "#000";
 var white = "#fff";
 
 function setup() {
-  var canvas = createCanvas(windowWidth, windowHeight/1.5);
+  var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("myContainer");
   background('#000');
   strokeWeight(0.01);
@@ -20,6 +20,8 @@ function draw() {
   for (var i = 0; i < width; i++) {
     var w = random(width); //random X
     var h = random(height); //random Y
+    var w2 = random(width); //random X
+    var h2 = random(height); //random Y
     var start = round(random(height));
     var end = round(random(width));
 
@@ -27,10 +29,12 @@ function draw() {
     var c = round(random(colorList.length-1));// select random color
     
     stroke(colorList[c]); //set fill color
-    line( start, w, end, h);//draw line
+    line( w, h, w2, h2);//draw line
+    // stroke(colorList[c]); //set fill color
+    // line( end, start, w2, h2);
     smooth(); //just smooth
     }
 }
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight/1.5);
+  resizeCanvas(windowWidth, windowHeight);
 }
