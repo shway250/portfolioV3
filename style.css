@@ -28,6 +28,16 @@ h1{
 }
 h2{
   font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+p{
+  margin:0;
+}
+.laptop{
+  width: 15%;
+  height: auto;
+  float: left;
 }
 #titleDiv{
   position: absolute;
@@ -55,9 +65,10 @@ h2{
   width: 100%;
   height: auto;
   text-align: center;
+  border:5px double black; 
 }
 #borderbox{
-  border:1px solid black; 
+  /*border:1px solid black;*/ 
   margin: 0 auto;
   width: 30%;
 }
@@ -65,5 +76,11 @@ h2{
   display: inline-block;
   width: 50%;
   /*text-align: left;*/
-
+}
+#project1{
+  background: #E3CDA4;
+}
+#project2{
+  background: #C77966;
+  /*background: #0b542d;*/
 }
