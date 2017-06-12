@@ -54,19 +54,16 @@ h2{
 #profilepic{
   width: 100%;
   height: auto;
-  border-radius: 50%;
-  display: inline-block;
-  /*border:solid 1px black;*/
+  text-align: center;
 }
 #borderbox{
   border:1px solid black; 
-  display: inline-block;
+  margin: 0 auto;
   width: 30%;
-  padding: 2px;
 }
 #profiletext{
   display: inline-block;
   width: 50%;
-  text-align: left;
+  /*text-align: left;*/
 
 }
