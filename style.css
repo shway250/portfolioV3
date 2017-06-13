@@ -37,7 +37,10 @@ p{
 .laptop{
   width: 15%;
   height: auto;
-  float: left;
+  display: inline-block;
+}
+.project-desc{
+  display: inline-block;
 }
 #titleDiv{
   position: absolute;
@@ -77,10 +80,13 @@ p{
   width: 50%;
   /*text-align: left;*/
 }
+#projects-section{
+  background: #C77966;
+}
 #project1{
-  background: #E3CDA4;
+  background: #A39490;
 }
 #project2{
-  background: #C77966;
+  background: #a09a8e;
   /*background: #0b542d;*/
 }
