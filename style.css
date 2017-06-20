@@ -64,6 +64,9 @@ p{
   margin: 0 10px;
   text-align: center;
 }
+.important-text{
+  font-style: bold;
+}
 #profilepic{
   width: 100%;
   height: auto;
@@ -81,12 +84,13 @@ p{
   /*text-align: left;*/
 }
 #projects-section{
-  background: #C77966;
+  /*background: #C77966;*/
 }
 #project1{
-  background: #A39490;
+  background-image: url("./imgs/diagonallines.png");
+  background-position: center;
 }
 #project2{
-  background: #a09a8e;
-  /*background: #0b542d;*/
+  background-image: url("./imgs/orangeSineLines.png");
+  background-position: center;
 }
