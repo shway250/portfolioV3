@@ -42,9 +42,18 @@ p{
 }
 ul {
   list-style-type: none;
-  /*margin:auto;*/
+  position: relative;
   margin:0px auto;
   padding: 0;
+}
+/*li{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*transform: translate(-50%, -50%);*/
+.list-text{
+  margin-top: 15%;
+  display: inline-block;
 }
 
 .laptop{
