@@ -44,10 +44,11 @@ var blinky = document.getElementsByClassName("circle");
 setInterval(change,1000);
 function change(){
   for(var i=0;i<blinky.length;i++){
-    blinky[i].style.background = 'rgb('+rndColor() +','+ rndColor() +',' + rndColor() + ')';
+    // blinky[i].style.background = 'rgb('+rndColor() +','+ rndColor() +',' + rndColor() + ')';
+    blinky[i].style.background = 'rgb('+220 +','+ rndColor() +',' + rndColor()%12 + ')';
   }
 }
 function rndColor(){
-  var randomColor = Math.floor((Math.random()*255)%150);
+  var randomColor = Math.floor((Math.random()*255%75));
   return randomColor;
 }

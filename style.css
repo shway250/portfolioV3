@@ -43,6 +43,8 @@ p{
 ul {
   list-style-type: none;
   /*margin:auto;*/
+  margin:0px auto;
+  padding: 0;
 }
 
 .laptop{
@@ -113,11 +115,10 @@ ul {
   text-align: center;
 }
 .skillz-div{
-  background: grey;
   width: 200px;
   height: 200px;
   display: inline-block;
   margin: 5px 5%;
-  background: rgb(255,123,30);
+  background: #c77966;
   border-radius: 50%;
 }
