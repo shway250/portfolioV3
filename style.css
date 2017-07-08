@@ -113,6 +113,7 @@ ul {
 #project2{
   background-image: url("./imgs/diagonallines.png");
   background-position: center;
+  background-repeat: no-repeat;
 }
 #skillz-section{
   text-align: center;
@@ -131,4 +132,8 @@ ul {
 }
 .contact-link{
   margin: 10px 50px;
+}
+.fa-div{
+  display: inline-block;
+  text-align: center;
 }
