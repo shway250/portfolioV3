@@ -46,11 +46,7 @@ ul {
   margin:0px auto;
   padding: 0;
 }
-/*li{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /*transform: translate(-50%, -50%);*/
+
 .list-text{
   margin-top: 15%;
   display: inline-block;
@@ -80,7 +76,6 @@ ul {
   color: white;
   text-decoration: none;
   text-align: center;
-  /*font-family: sans-serif;*/
   color: white;
 }
 .spaced{
@@ -107,7 +102,6 @@ ul {
 #profiletext{
   display: inline-block;
   width: 50%;
-  /*text-align: left;*/
 }
 #projects-section{
   /*background: #C77966;*/
