@@ -54,7 +54,7 @@ ul {
 
 .laptop{
   width: 200px;
-  height: auto;
+  height: 200px;
   display: inline-block;
   margin: 0 10px 0 5%;
 }
@@ -124,4 +124,11 @@ ul {
   margin: 5px 5%;
   background: #c77966;
   border-radius: 50%;
+}
+.contact-div{
+  text-align: center;
+  margin: 50px auto 200px auto;
+}
+.contact-link{
+  margin: 10px 50px;
 }
