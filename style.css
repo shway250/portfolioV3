@@ -3,10 +3,10 @@ body {
   margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: Impact;
+  font-family: 'Oswald', sans-serif;
 }
 p,a,li{
-  font-family: Garamond;
+  font-family: 'Lato', sans-serif;
 }
 canvas {
   position: relative;
@@ -102,11 +102,11 @@ ul {
   /*background: #C77966;*/
 }
 #project1{
-  background-image: url("./imgs/diagonallines.png");
+  background-image: url("./imgs/orangeSineLines.png");
   background-position: center;
 }
 #project2{
-  background-image: url("./imgs/orangeSineLines.png");
+  background-image: url("./imgs/diagonallines.png");
   background-position: center;
 }
 #skillz-section{
@@ -115,8 +115,9 @@ ul {
 .skillz-div{
   background: grey;
   width: 200px;
-  height: 250px;
+  height: 200px;
   display: inline-block;
   margin: 5px 5%;
-  /*position: relative;*/
+  background: rgb(255,123,30);
+  border-radius: 50%;
 }

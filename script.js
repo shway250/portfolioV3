@@ -39,3 +39,15 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   background('#000');
 }
+//vanilla Javascript
+var blinky = document.getElementsByClassName("circle");
+setInterval(change,1000);
+function change(){
+  for(var i=0;i<blinky.length;i++){
+    blinky[i].style.background = 'rgb('+rndColor() +','+ rndColor() +',' + rndColor() + ')';
+  }
+}
+function rndColor(){
+  var randomColor = Math.floor((Math.random()*255)%150);
+  return randomColor;
+}
