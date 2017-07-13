@@ -17,6 +17,7 @@ canvas {
   height: 100%;
 }
 header{
+  font-size: 1.5em;
   background: rgba(0,0,0,0.6);
   position: fixed;
   top: 0;
@@ -71,9 +72,29 @@ ul {
     height: 350px;
     display: block;
     margin: 15px auto;
-    background: #c77966;
+    background: purple;
     border-radius: 50%;
-}
+  }
+  .circle{
+    width: 350px;
+    height: 350px;
+    display: block;
+  }
+  header{
+  font-size: 2em;
+  }
+  header ul li{
+  margin:3% 2%;
+  }
+  .spaced{
+  letter-spacing: 0.1em;
+  }
+  .skills-list{
+  font-size: 1.75em;
+  }
+  .important-text{
+   font-size: 1.8em;
+  }
 }
 .project-desc{
   display: inline-block;
@@ -135,6 +156,7 @@ ul {
 #skillz-section{
   text-align: center;
 }
+
 .skillz-div{
   width: 200px;
   height: 200px;
