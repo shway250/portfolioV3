@@ -30,10 +30,10 @@ header ul li{
 }
 h1{
   margin: 0;
-  font-size: 75px;
+  font-size: 7em;
 }
 h2{
-  font-size: 60px;
+  font-size: 4em;
   margin: 0;
   text-align: center;
 }
@@ -57,6 +57,23 @@ ul {
   height: 200px;
   display: inline-block;
   margin: 0 10px 0 5%;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .laptop{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  } 
+  .skillz-div{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 15px auto;
+    background: #c77966;
+    border-radius: 50%;
+}
 }
 .project-desc{
   display: inline-block;
