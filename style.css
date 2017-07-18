@@ -175,6 +175,11 @@ a:link:active, a:visited:active {
   background-position: center;
   background-repeat: no-repeat;
 }
+#project4{
+  background-image: url("./imgs/filledCircles.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
 #skillz-section{
   text-align: center;
 }

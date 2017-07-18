@@ -41,7 +41,7 @@ function windowResized() {
 }
 //vanilla Javascript
 var blinky = document.getElementsByClassName("circle");
-setInterval(change,1000);
+setInterval(change,1500);
 function change(){
   for(var i=0;i<blinky.length;i++){
     // blinky[i].style.background = 'rgb('+rndColor() +','+ rndColor() +',' + rndColor() + ')';
