@@ -47,6 +47,17 @@ ul {
   margin:0px auto;
   padding: 0;
 }
+a:link{ 
+    color: #C77966;
+    text-decoration: none;
+    cursor: auto;
+}
+a:visited{
+  color: #C77944;
+}
+a:link:active, a:visited:active { 
+    color: (internal value);
+}
 
 .list-text{
   margin-top: 15%;
@@ -114,10 +125,10 @@ ul {
   color: white;
   text-decoration: none;
   text-align: center;
-  color: white;
 }
 .spaced{
   letter-spacing: 0.2em;
+  color: white;
 }
 .about{
   margin: 0 10px;
