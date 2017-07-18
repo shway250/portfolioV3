@@ -124,6 +124,14 @@ a:link:active, a:visited:active {
   margin:0 5% 5% 5%;
   background:rgba(255,255,255,0.43);
 }
+.project-desc2{
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  font-size: 1.15em;
+  margin:0 5% 5% 5%;
+  background:rgba(255,255,255,0.2);
+}
 #titleDiv{
   position: absolute;
   top: 15%;
