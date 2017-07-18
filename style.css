@@ -108,12 +108,16 @@ a:link:active, a:visited:active {
    font-size: 1.8em;
   }
 }
+.project{
+  width: 100%;
+  height: auto;
+}
 .project-desc{
   width: 90%;
   height: auto;
   display: inline-block;
   font-size: 1.15em;
-  margin:0 10% 5% 10%;
+  margin:0 5% 5% 5%;
   background:rgba(255,255,255,0.4);
 }
 #titleDiv{
