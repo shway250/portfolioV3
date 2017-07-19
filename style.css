@@ -75,62 +75,10 @@ a:link:active, a:visited:active {
   display: inline-block;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .laptop{
-    width: 50%;
-    height: 50%;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-  } 
-  .skillz-div{
-    width: 350px;
-    height: 350px;
-    display: block;
-    margin: 15px auto;
-    background: purple;
-    border-radius: 50%;
-  }
-  .circle{
-    width: 350px;
-    height: 350px;
-    display: block;
-  }
-  header{
-  font-size: 2em;
-  }
-  header ul li{
-  margin:3% 2%;
-  }
-  .spaced{
-  letter-spacing: 0.1em;
-  }
-  .skills-list{
-  font-size: 1.75em;
-  }
-  .important-text{
-   font-size: 1.8em;
-  }
-}
+
 .project{
   width: 100%;
   height: auto;
-}
-.project-desc{
-  width: 90%;
-  height: auto;
-  display: inline-block;
-  font-size: 1.15em;
-  margin:0 5% 5% 5%;
-  background:rgba(255,255,255,0.43);
-}
-.project-desc2{
-  width: 90%;
-  height: auto;
-  display: inline-block;
-  font-size: 1.15em;
-  margin:0 5% 5% 5%;
-  background:rgba(255,255,255,0.2);
 }
 #titleDiv{
   position: absolute;
@@ -174,6 +122,23 @@ a:link:active, a:visited:active {
 #projects-section{
   /*background: #C77966;*/
 }
+.project-desc{
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  font-size: 1.15em;
+  margin:0 5% 5% 5%;
+  background:rgba(255,255,255,0.43);
+}
+.project-desc2{
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  font-size: 1.15em;
+  margin:0 5% 5% 5%;
+  background:rgba(255,255,255,0.2);
+}
 #project1{
   background-image: url("./imgs/orangeSineLines.png");
   background-position: center;
@@ -182,21 +147,25 @@ a:link:active, a:visited:active {
   background-image: url("./imgs/diagonallines.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #project3{
   background-image: url("./imgs/squiggleCircle2.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #project5{
   background-image: url("./imgs/sineXandY.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #project4{
   background-image: url("./imgs/filledCircles.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #skillz-section{
   text-align: center;
@@ -224,4 +193,85 @@ a:link:active, a:visited:active {
 footer{
   text-align: center;
   margin-bottom: 10px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .laptop{
+    width: 450px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 50%;
+    position: relative;
+  } 
+  .image-div{
+    margin: 0 auto;
+  }
+  #profiletext{
+    width: 65%;
+  }
+  #profilepic{
+    width: 120%;
+    height: auto; 
+    margin: 0 auto;
+  }
+  .skillz-div{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 15px auto;
+    background: purple;
+    border-radius: 50%;
+  }
+  .circle{
+    width: 350px;
+    height: 350px;
+    display: block;
+  }
+  header{
+  font-size: 2em;
+  }
+  header ul li{
+  margin:3% 2%;
+  }
+  .spaced{
+  letter-spacing: 0.1em;
+  }
+  .skills-list{
+  font-size: 1.95em;
+  }
+  .important-text{
+   font-size: 1.8em;
+  }
+  .project-desc{
+    width: 95%;
+    height: auto;
+    display: inline-block;
+    font-size: 1.15em;
+    margin:0 2.5%;
+    background:rgba(255,255,255,0.43);
+  }
+  .project-desc2{
+    width: 95%;
+    height: auto;
+    display: inline-block;
+    font-size: 1.15em;
+    margin:0 2.5%;
+    background:rgba(255,255,255,0.2);
+  }
+  .project-div{
+    font-size: 1em;
+  }
+  #profiletext{
+    font-size: 1.5em;
+  }
+  .fa-div{
+    font-size: 1.5em;
+  }
+
+}
+@media only screen and (min-device-width : 481px) and (max-device-width : 1400px) {
+  .image-div{
+    margin: 0 auto;
+  }
 }
