@@ -270,7 +270,7 @@ footer{
   }
 
 }
-@media only screen and (min-device-width : 481px) and (max-device-width : 1400px) {
+@media only screen and (min-device-width : 481px) and (max-device-width : 1050px) {
   .laptop{
     width: 450px;
     height: auto;
