@@ -60,6 +60,10 @@ a:link:active, a:visited:active {
     color: (internal value);
 }
 
+#myContainer{
+  height: 100vh;
+}
+
 .list-text{
   margin-top: 15%;
   display: inline-block;
